@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+   encrypt:
+     build: .
+     command: python encrypt.py
